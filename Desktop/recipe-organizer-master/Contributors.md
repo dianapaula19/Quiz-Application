@@ -1,0 +1,2 @@
+- [Marius Nicolae] (https://github.com/bytao7mao)
+- [Paula-Diana Băcîrcea] (https://github.com/dianapaula19)
