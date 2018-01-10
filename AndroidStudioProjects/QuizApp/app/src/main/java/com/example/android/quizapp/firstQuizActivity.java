@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.VideoView;
 
 import java.lang.reflect.Array;
@@ -433,7 +434,7 @@ public class firstQuizActivity extends AppCompatActivity {
             result=result+"\n"+getString(R.string.score_message_for_perfect_score_quiz1);
         }
 
-        textViewResult.setText(result);
+        Toast.makeText(this, result, Toast.LENGTH_SHORT).show();
 
     }
 

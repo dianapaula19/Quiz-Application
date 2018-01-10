@@ -7,6 +7,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class secondQuizActivity extends AppCompatActivity {
 
@@ -144,10 +145,7 @@ public class secondQuizActivity extends AppCompatActivity {
         {
             score=score+"\n"+getString(R.string.score_message_for_perfect_score_quiz2);
         }
-
-        textViewScore.setText(score);
-        textViewScore.setBackgroundResource(R.drawable.border_style_score);
-
         numberOfPoints=0;
+        Toast.makeText(this, score, Toast.LENGTH_SHORT).show();
     }
 }
